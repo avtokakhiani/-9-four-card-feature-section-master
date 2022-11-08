@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+    background: #FAFAFA;
+    padding: 85px 10% 78px 10%;
+}
+
+/* header */
+
+.text {
+    max-width: 311px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.text h1 {
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+}
+#first-h1 {
+    font-weight: 275;
+    font-size: 24px;
+}
+.text p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    margin-top: 13px;
+}
+
+/* main */
+
+main {
+    margin-top: 51px;
+}
+.main-div {
+    max-width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.supervisor {
+    border-top: solid #44D3D2;
+    border-radius: 8px;
+    padding: 8% 10%;
+}
+.team-builder {
+    border-top: solid #EA5454;
+    border-radius: 8px;
+    padding: 8% 10%;
+}
+.karma {
+    border-top: solid #FCAE4A;
+    border-radius: 8px;
+    padding: 8% 10%;
+}
+.calculator {
+    border-top: solid #549EF2;
+    border-radius: 8px;
+    padding: 8% 10%;
+}
+.icon {
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+@media only screen and (min-width:1360px) {
+
+body {
+    padding-top: 80px;
+}
+.text {
+    max-width: 540px;
+}
+#first-h1 {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+}
+.text h1 {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+}
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+.main-div {
+    height: 250px;
+    width: 350px;
+}
+.middle {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+}
+
